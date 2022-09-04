@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<FrameLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ImageFragment">
+
+
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="386dp"
+    android:layout_margin="20dp"
+    app:cardCornerRadius="40dp">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="386dp"
+            android:layout_margin="2dp"
+        android:src="@drawable/islamhome" />
+
+
+
+</androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="386dp"
+       android:layout_marginTop="500dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="40dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="386dp"
+            android:layout_margin="2dp"
+            android:src="@drawable/islamhome" />
+
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="386dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="40dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="386dp"
+            android:layout_margin="2dp"
+            android:src="@drawable/islamhome" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</FrameLayout>
+
+</ScrollView>

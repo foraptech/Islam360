@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+
+        <item
+            android:id="@+id/one"
+           android:icon="@drawable/quranabselected"
+            android:title="Quran"/>
+        <item
+            android:id="@+id/two"
+      android:icon="@drawable/hadeestabselected"
+            android:title="Hadith"/>
+        <item
+            android:id="@+id/three"
+            android:icon="@drawable/hometabselected"
+            android:title="Home"/>
+        <item
+            android:id="@+id/four"
+            android:icon="@drawable/ibadattabselected"
+            android:title="Ibadaat"/>
+        <item
+            android:id="@+id/five"
+            android:icon="@drawable/moretabselected"
+            android:title="More"/>
+    </group>
+
+</menu>
